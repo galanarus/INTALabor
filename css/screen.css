@@ -1,0 +1,255 @@
+body{
+    background-color: #fbf1d7;
+}
+
+a{
+    text-decoration: none;
+    font-style: italic;
+    color: black;
+}
+a:hover{
+    color: #ae8757;
+    font-size: 15pt;
+    font-weight: bolder;
+    text-shadow: 0 0 2px black;
+}
+
+#website{
+    width: 1024px;
+    background-color: #deb887;
+    margin: 0 auto;
+    border-radius: 20px;
+    border: solid;
+}
+
+#main{
+    margin: 10px;
+    padding: 5px;
+}
+
+#header{
+    background-color: bisque;
+    border-radius: 10px;
+    border: solid;
+    border-color: black;
+}
+
+#header #pageTitle{
+    font-family: "Courier New", serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+
+#menu{
+    margin-top: 5px;
+    height: 605px;
+    width: 175px;
+    background-color: bisque;
+    float: left;
+    border-radius: 10px;
+    border: solid;
+}
+
+.menu{
+    margin-top: 5px;
+    padding:0;
+    width:175px;
+    list-style:none;
+}
+.menu li{
+    padding:0;
+    margin:0 0 1px 0;
+    height:40px;
+    display:block;
+}
+.menu li a{
+    text-align:left;
+    height:40px;
+    padding:0 25px;
+    font:16px Verdana, Arial, Helvetica, sans-serif;
+    color: black;
+    display:block;
+    background:url('../img/verMenuImages.png')
+    0 0 no-repeat;
+    text-decoration:none;
+    border-radius: 5px;
+}
+.menu li a:hover{
+    background:url('../img/verMenuImages.png') 0 -40px no-repeat;
+    color: black;
+}
+.menu li a.active, .menu li a.active:hover{
+    background:url('../img/verMenuImages.png') 0 -80px no-repeat;
+    color:rgb(255,255,255);
+}
+.menu li a span{
+    line-height:40px;
+}
+.menu li input{
+    text-align:left;
+    height:40px;
+    padding:0 25px;
+    font:16px Verdana, Arial, Helvetica, sans-serif;
+    color: black;
+    display:block;
+    background:url('../img/verMenuImages.png')
+    0 0 no-repeat;
+    text-decoration:none;
+}
+.menu li input:hover{
+    background:url('../img/verMenuImages.png') 0 -40px no-repeat;
+    color: black;
+}
+.menu li input.active, .menu li a.active:hover{
+    background:url('../img/verMenuImages.png') 0 -80px no-repeat;
+    color:rgb(255,255,255);
+}
+.menu li input span{
+    line-height:40px;
+}
+
+#content{
+    background-color: bisque;
+    height: 600px;
+    width: 797px;
+    float: right;
+    margin: 5px auto;
+    border-radius: 10px;
+    border: solid;
+    padding-top: 5px;
+    padding-left: 5px;
+    overflow: auto;
+    overflow-wrap: normal;
+}
+
+#footer{
+    padding: 5px, 5px;
+    height: 100px;
+    clear: both;
+    background-color: bisque;
+    border-radius: 10px;
+    border: solid;
+}
+
+#footer address{
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+}
+
+#footer a{
+    margin-right: 10px;
+    margin-top: 10px;
+    float: right;
+}
+
+/* Listen */
+#listen ol {
+    border: solid;
+    border-color: aqua;
+    width: 150px;
+    float: left;
+    background-color: brown;
+    padding-right: 35px;
+    margin-right: 15px;
+}
+
+#listen ol li{
+    font-style: italic;
+    color: yellow;
+    background-color: darkgreen;
+
+}
+
+#listen ul {
+    border: dotted;
+    border-color: brown;
+    width: 200px;
+    float: left;
+}
+#listen ul li {
+    border: double;
+    border-color: chocolate;
+    width: 200px;
+    float: left;
+}
+
+#imgDiv{
+    position: relative;
+}
+
+#imgNav{
+    position: absolute;
+    top: 1cm;
+    left: 1cm;
+    z-index: 1;
+    width: 400px;
+    height: 400px;
+}
+
+#imgWoNav{
+    position: absolute;
+    top: 2cm;
+    left: 2cm;
+    z-index: 2;
+
+    width: 400px;
+    height: 400px;
+}
+
+/* Tabellenformatierungen */
+table{
+    border: solid;
+    border-radius: 5px;
+    caption-side: bottom;
+}
+
+table caption{
+    font-size: 8pt;
+    margin-bottom: 10pt;
+    margin-top: 5pt;
+}
+
+#firstTable{
+    width: 600px;
+    border: solid;
+}
+
+#firstTable .leftCol {
+    background-color: tomato;
+}
+
+#firstTable .middleCol {
+    background-color: deeppink;
+}
+
+#firstTable .rightCol{
+    background-color: darkgoldenrod;
+}
+
+#firstTable tbody tr:nth-child(odd){
+    background-color: darkgreen;
+}
+
+#firstTable thead, tfoot{
+
+}
+
+#outer{
+    width: 600px;
+}
+
+#outer #tdNav{
+    width: 150px;
+}
+
+#headTable{
+    width: 100%;
+}
+
+#navTable{
+    width: 100%;
+}
+

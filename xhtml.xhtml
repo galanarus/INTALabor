@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="language" content="deutsch, de" />
+    <meta name="author" content="Raimond Kowski" />
+
+    <title>This is the XHTMl page</title>
+
+    <link rel="stylesheet" media="screen" type="text/css" href="css/screen.css" />
+    <link rel="stylesheet" media="print" type="text/css" href="css/print.css" />
+
+    <script type="text/javascript" src="./js/scripts.js"></script>
+    <script type="text/javascript" src="./js/jquery-2.1.0.js"></script>
+</head>
+<body onload="javascript:showContent('xhtml')">
+    <div id="website">
+        <div id="main">
+            <div id="header">
+                    <div id="pageTitle">Laboraufgabe INTA</div>
+            </div><!-- header -->
+
+            <div id="menu">
+                <ul class="menu">
+                    <!-- Navigation: Startseite/XHTML Seite-->
+                    <li><a href="index.html" class="active"><span>Home</span></a></li>
+                    <li><a href="javascript:showContent('xhtml')"><span>XHTML</span></a> </li>
+
+                    <!-- Navigation: Meilensteine -->
+                    <li><a href="javascript:showContent('float')"><span>Float-text</span></a></li>
+                    <li><a href="javascript:showContent('lists')"><span>Listen</span></a></li>
+                    <li><a href="javascript:showContent('graphic')"><span>Graphic</span></a></li>
+                    <li><a href="javascript:showContent('tables')"><span>Tabellen</span></a></li>
+
+                    <!-- Navigation: externe Links -->
+                    <li><a onclick="newTab('http://git-scm.com')" ><span>Git</span></a></li>
+                    <li><a onclick="newTab('https://github.com')"><span>GitHub</span></a></li>
+                    <li><a onclick="newTab('http://validator.w3.org')" ><span>W3 Validator</span></a></li>
+                </ul>
+            </div><!-- menu -->
+
+            <div id="content">
+
+            </div><!-- content -->
+
+            <div id="footer">
+                <address>
+                    Raimond Kowski <br />
+                    Kreisauer Ring 99 <br />
+                    24145 Kiel <br />
+                </address>
+                <a href="mailto: raimond.kowski@student.fh-kiel.de">raimond.kowski@student.fh-kiel.de</a>
+            </div><!-- footer -->
+        </div> <!-- main -->
+    </div> <!-- website -->
+</body>
+</html>

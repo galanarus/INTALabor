@@ -1,0 +1,100 @@
+<h2>Wir koennen auch mit Tabellen umgehen</h2>
+
+<table id="firstTable">
+    <caption>Tabelle 1</caption>
+    <colgroup>
+        <col class="leftCol" />
+        <col class="middleCol" />
+        <col class="rightCol" />
+    </colgroup>
+
+    <thead id="tblHead">
+    <tr>
+        <th>Spaltenheader 1</th>
+        <th>Spaltenheader 2</th>
+        <th>Spaltenheader 3</th>
+    </tr>
+    </thead>
+
+    <tfoot>
+    <tr>
+        <th>Spaltenheader (tfoot) 1</th>
+        <th>Spaltenheader (tfoot) 2</th>
+        <th>Spaltenheader (tfoot) 3</th>
+    </tr>
+    </tfoot>
+
+    <tbody id="q1">
+    <tr>
+        <td>Ich bin in Zeile 1 / Spalte 1</td>
+        <td>Ich bin in Zeile 1 / Spalte 2</td>
+        <td>Ich bin in Zeile 1 / Spalte 3</td>
+    </tr>
+    <tr>
+        <td>Ich bin in Zeile 2 / Spalte 1</td>
+        <td>Ich bin in Zeile 2 / Spalte 2</td>
+        <td>Ich bin in Zeile 2 / Spalte 3</td>
+    </tr>
+    <tr>
+        <td>Ich bin in Zeile 3 / Spalte 1</td>
+        <td>Ich bin in Zeile 3 / Spalte 2</td>
+        <td>Ich bin in Zeile 3 / Spalte 3</td>
+    </tr>
+    <tr>
+        <td>Ich bin in Zeile 4 / Spalte 1</td>
+        <td>Ich bin in Zeile 4 / Spalte 2</td>
+        <td>Ich bin in Zeile 4 / Spalte 3</td>
+    </tr>
+    <tr>
+        <td>Ich bin in Zeile 5 / Spalte 1</td>
+        <td>Ich bin in Zeile 5 / Spalte 2</td>
+        <td>Ich bin in Zeile 5 / Spalte 3</td>
+    </tr>
+    </tbody>
+</table>
+
+
+
+<table id="outer">
+    <caption>Tabelle 2</caption>
+    <thead>
+        <tr>
+            <td colspan="3">
+                <table id="headTable">
+                    <tr>
+                        <td><h2>Verschachtelte Tabelle</h2></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td id="tdNav">
+                <table id="navTable">
+                    <tr>
+                        <th>Navigation-Table</th>
+                    </tr>
+                    <tr>
+                        <td>Nav 1</td>
+                    </tr>
+                    <tr>
+                        <td>Nav 2</td>
+                    </tr>
+                    <tr>
+                        <td>Nav 3</td>
+                    </tr>
+                    <tr>
+                        <td>Nav 4</td>
+                    </tr>
+                    <tr>
+                        <td>Nav 5</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                Table Content
+            </td>
+        </tr>
+    </tbody>
+</table>
