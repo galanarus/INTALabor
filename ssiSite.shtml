@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <header>
+
+    </header>
+
+    <section>
+        <!--#include file="lists.html"-->
+    </section>
+
+    <footer>
+        <!--#config timefmt="%d.%m.%Y, %H.%M" -->
+        <!--#config sizefmt="bytes"-->
+        Last Modified:<!--#flastmod file="ssiSite.shtml"--> Uhr<br/>
+        Geändert am:<!--#echo var="DATE_LOCAL" --> Uhr<br>
+
+        File size: <!--#fsize file="ssiSite.shtml"--><br/>
+        Letzte Änderung:  <!--#echo var="LAST_MODIFIED"--><br/>
+    </footer>
+</body>
+</html>

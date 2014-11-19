@@ -2,6 +2,93 @@ body{
     background-color: #fbf1d7;
 }
 
+/* HTML 5 Seite - Labor 2 */
+header{
+    background-color: bisque;
+    border-radius: 10px;
+    border: solid;
+    border-color: black;
+
+    margin: 15px;
+
+    font-family: "Courier New", serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+
+}
+
+nav{
+    padding: 5px 5px;
+    background-color: bisque;
+    height: 50px;
+    margin: -5px 15px 5px 15px;
+    border-radius: 10px;
+    border: solid;
+}
+
+nav ul li{
+    display: inline;
+    margin: 1.4em;
+    padding: 0;
+}
+
+#contentSec {
+    background-color: bisque;
+    height: 600px;
+    //width: 600px;
+ /* float: left; */
+    margin: 5px 15px 5px 15px;
+    border-radius: 10px;
+    border: solid;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 15px;
+    overflow: auto;
+    overflow-wrap: normal;
+}
+
+form li{
+    list-style: none;
+}
+
+footer{
+    padding: 5px, 5px;
+    height: 100px;
+    clear: both;
+    background-color: bisque;
+    border-radius: 10px;
+    border: solid;
+
+    margin: 15px;
+}
+
+footer address{
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+}
+
+footer a{
+    margin-right: 10px;
+    margin-top: 10px;
+    float: right;
+}
+
+
+.button{
+    border: none;
+    background-image: url("/img/up.png") no-repeat top left;
+    padding: 2px 8px;
+}
+
+.controls{
+    display: inline;
+}
+
+
+/* HTML 5 Seite - Labor 2 */
+
 a{
     text-decoration: none;
     font-style: italic;
