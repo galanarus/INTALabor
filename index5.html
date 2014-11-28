@@ -44,10 +44,10 @@
 
             <p>
                 <h2>Login Required</h2>
-                <form action="cgi-bin/common.exe" method="post">
+                <form action="result.php" method="post">
                     <ul>
-                        <li><label for="login">LoginName:</label> <input id="login" type="text" required="true"/></li>
-                        <li><label for="password">Password:</label> <input id="password" type="password" required="true"/></li>
+                        <li><label for="login">LoginName:</label> <input id="login" name="login" type="text" required="true"/></li>
+                        <li><label for="password">Password:</label> <input id="password"  name="pwd" type="password" required="true"/></li>
                         <li><label for="genderM">männlich:</label> <input id="genderM" name="gender" type="radio" checked="true"/></li>
                         <li><label for="genderF">weiblich:</label> <input id="genderF" name="gender" type="radio"/></li>
                         <li><label for="mail">E-Mail:</label> <input id="mail" type="email" required="true"/></li>
